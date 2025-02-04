@@ -1,4 +1,4 @@
-/*SELECT
+SELECT
 job_title_short AS title,
 job_location AS location,
 --job_posted_date :: DATE AS job_posted_date -- Converting datatype to data & removing timestamp  
@@ -7,7 +7,7 @@ EXTRACT(MONTH FROM job_posted_date) AS date_month,
 EXTRACT(YEAR FROM job_posted_date) AS date_year 
  
 FROM job_postings_fact
-LIMIT 5; */
+LIMIT 5; 
 
 
 SELECT
